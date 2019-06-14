@@ -20,10 +20,7 @@ class StudentController extends Controller
         $student->dob=$request->input('dob');
         $student->address=$request->input('Address');
         $student->save();
-
-
-        
     }
-  
+
 
 }
